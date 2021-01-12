@@ -14,22 +14,23 @@ Using SMS to control and monitor a smart garden system built with IoT devices
 * small fan
 
 ### Hardware
-![alt text](https://github.com/105061210/SMS_IoT/blob/main/assets/pcs_final.jpeg)
+![alt text](https://github.com/105061210/SMS_IoT/blob/main/assets/pcs_final_1.jpg)
 
 ### Software
-'''
+```
 pip install twilio
 pip install Flask
 sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 sudo unzip ngrok-stable-linux-arm.zip
-'''
+```
 Go to https://dashboard.ngrok.com/login in browser to log in / sign up
 Click *Auth* and get Authtoken
-'''
+```
 ./ngrok authtoken <the token depends on your account>
-'''
-'''
+```
+```
 ./ngrok http 5000
+```
 
 ### Result
 * demo video:https://drive.google.com/file/d/1zly6OD56tLU_YGzDxqX4LgoZecO9N_bo/view?usp=sharing
