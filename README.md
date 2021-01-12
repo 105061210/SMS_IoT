@@ -14,8 +14,8 @@ Using SMS to control and monitor a smart garden system built with IoT devices
 * small fan
 
 ### Hardware
-![alt text](https://github.com/105061210/SMS_IoT/blob/main/assets/pcs_final_1.jpg)
 
+![alt text](https://github.com/105061210/SMS_IoT/blob/main/assets/pcs_final.jpeg)
 
 ### Software
 ```
@@ -41,7 +41,7 @@ python bot.py
 ```
 * demo video: https://drive.google.com/file/d/1zly6OD56tLU_YGzDxqX4LgoZecO9N_bo/view?usp=sharing
 
-![alt text](https://github.com/105061210/SMS_IoT/blob/main/assets/pcs_final.jpeg)
+![alt text](https://github.com/105061210/SMS_IoT/blob/main/assets/pcs_final_1.jpg)
 
 
 
