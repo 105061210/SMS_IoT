@@ -5,7 +5,7 @@ Using SMS to control and monitor a smart garden system built with IoT devices
 * Return the sensor values when sending a SMS containing “sensor”, including brightness, humidity and temperature in the room, soil moisture and total watering times.
 
 ### Requirements
-* a Twilio account and number
+* a **Twilio** account and number
 * Arduino Uno
 * Raspberry Pi
 * sensors: soil moisture, light, temperature and humidity sensor
@@ -16,6 +16,7 @@ Using SMS to control and monitor a smart garden system built with IoT devices
 ### Hardware
 ![alt text](https://github.com/105061210/SMS_IoT/blob/main/assets/pcs_final_1.jpg)
 
+
 ### Software
 ```
 pip install twilio
@@ -24,19 +25,23 @@ sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 sudo unzip ngrok-stable-linux-arm.zip
 ```
 Go to https://dashboard.ngrok.com/login in browser to log in / sign up
-Click *Auth* and get Authtoken
+Click **Auth** and get Authtoken
 ```
 ./ngrok authtoken <the token depends on your account>
 ```
 ```
 ./ngrok http 5000
 ```
+and configure the URL in Twilio account
 
 ### Result
-* demo video:https://drive.google.com/file/d/1zly6OD56tLU_YGzDxqX4LgoZecO9N_bo/view?usp=sharing
+By uploading src/pcs_final.ino to Arduino and running bot.py on Raspberry Pi
+```
+python bot.py
+```
+* demo video: https://drive.google.com/file/d/1zly6OD56tLU_YGzDxqX4LgoZecO9N_bo/view?usp=sharing
 
-![alt text](https://github.com/105061210/SMS_IoT/blob/main/assets/pcs_final_1.jpeg)
-
+![alt text](https://github.com/105061210/SMS_IoT/blob/main/assets/pcs_final.jpeg)
 
 
 
